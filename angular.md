@@ -53,3 +53,46 @@ npm install
 
 # 作业
   -MDN array排序
+  
+#
+https://github.com/f58xxy/ng-admin/blob/master/src/pages/home/home-page/home-page.component.ts
+
+
+
+
+---------------------
+day2
+
+# Angular
+- 装饰器 @Component
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+
+- 指令 directive
+```
+<tr *ngFor="let app of apps">
+```
+
+- 管道 pipe
+ 过滤数据
+ ```
+  <td>{{user.name|uppercase}}</td>
+  <td>{{user.name|uppercase}}</td>
+ ```
+
+ 
+#作业
+
+#New模块
+- ng g module student
+- ng g component ./student/student-list --module student
+- ng g component ./student/student-edit --module student
+- ng g component ./student/student-item --module student
+- 拖动文件夹， 在vscode改路径，文件名，module名
+- *ctl-p 查找模块
+-
+
+
